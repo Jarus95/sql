@@ -393,7 +393,13 @@ insert into test(decription) VALUES('hdd')
 
 
 
+SELECT *
 
+
+FROM TABLE1
+
+
+NATURAL JOIN TABLE2;
 
 
 
