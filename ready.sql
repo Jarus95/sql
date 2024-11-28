@@ -405,7 +405,11 @@ NATURAL JOIN TABLE2;
 
 
 
-
+WITH cte_name AS (
+    SELECT query
+)
+SELECT *
+FROM cte_name;
 
 
 
